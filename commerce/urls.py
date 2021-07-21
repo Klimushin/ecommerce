@@ -7,7 +7,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("store.urls", namespace='store')),
     path("", include("user.urls", namespace='user')),
-    # path("", include("user.urls", namespace="user")),
+    path("", include("purchase.urls", namespace="purchase")),
     # path("", include("store.urls", namespace="store")),
 ]
 # append a media url to urlpatterns

@@ -35,6 +35,7 @@ INSTALLED_APPS = [
 
     'store.apps.StoreConfig',
     'user.apps.UserConfig',
+    'purchase.apps.PurchaseConfig',
     "crispy_forms",
 
 ]
